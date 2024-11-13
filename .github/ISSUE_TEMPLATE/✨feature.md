@@ -1,7 +1,7 @@
 ---
 name: "✨feature"
 about: 새로운 기능 추가
-title: "✨feat: (작업할 내용 적기)"
+title: "✨feat: (이 부분을 지우고 적어주세요)"
 labels: "✨feat"
 assignees: ''
 
@@ -13,7 +13,7 @@ assignees: ''
 ex) #1 
 -->
 
-(이부분을 지우고 적어주세요)
+(이 부분을 지우고 적어주세요)
 
 
 ## ✅작업할 내용
