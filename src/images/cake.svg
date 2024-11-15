@@ -1,0 +1,13 @@
+<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_57_61" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="-1" width="27" height="28">
+<path d="M15.375 7.25L4.125 12.1875H22.875L19.75 7.875" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.875 9.125C19.2557 9.125 20.375 8.00571 20.375 6.625C20.375 5.24429 19.2557 4.125 17.875 4.125C16.4943 4.125 15.375 5.24429 15.375 6.625C15.375 8.00571 16.4943 9.125 17.875 9.125Z" fill="black" stroke="white" stroke-width="2"/>
+<path d="M19.125 4.125L20.375 1" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M4.4375 15.3481C4.06125 15.5361 3.71167 15.7352 3.38875 15.9456C1.88625 16.9256 1 18.1325 1 19.4375C1 22.7169 6.59625 25.375 13.5 25.375C20.4037 25.375 26 22.7169 26 19.4375C26 18.1 25.07 16.8669 23.5 15.8744" stroke="white" stroke-width="2"/>
+<path d="M4.125 12.25H22.875V19.75H4.125V12.25Z" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4.125 12.25H23.5" stroke="white" stroke-width="2"/>
+</mask>
+<g mask="url(#mask0_57_61)">
+<path d="M-1.5 -1.5H28.5V28.5H-1.5V-1.5Z" fill="black"/>
+</g>
+</svg>
