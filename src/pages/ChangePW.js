@@ -38,15 +38,19 @@ function ChangePW() {
   };
 
   return (
-    <body>
+    <body className="pwBody">
       <header>
-        <button className="headerButton">
-          <img src={back} className="back"></img>
-        </button>
+        <div className="headerButton">
+          <button>
+            <img src={back} className="back"></img>
+          </button>
+        </div>
       </header>
 
       <main>
-        <h3 className="pwh3">비밀번호 변경</h3>
+        <div className="pwWrite">
+          <a>비밀번호 변경</a>
+        </div>
 
         <form onSubmit={handleSubmit}>
 
@@ -82,13 +86,17 @@ function ChangePW() {
             </div>
           </div>
 
-          {/* 에러 메시지 */}
-          {error && <p className="errorMessage">{error}</p>}
-          {/* 성공 메시지 */}
-          {success && <p className="successMessage">{success}</p>}
+          <div className="message">
+            {/* 에러 메시지 */}
+            {error && <p className="errorMessage">{error}</p>}
+            {/* 성공 메시지 */}
+            {success && <p className="successMessage">{success}</p>}
+          </div>
 
-          {/* 제출 버튼 */}
-          <button type="submit" className="changeButton"> 변경 </button>
+
+          <div className="divChangeButton">
+            <button type="submit" className="changeButton"> 변경 </button>
+          </div>
         </form>
       </main>
 
@@ -99,6 +107,7 @@ function ChangePW() {
               <img className="footerbtnimg" src={list} alt="List" />
             </button>
           </div>
+
           <div id="map">
             <Link>
               <button>
@@ -106,6 +115,7 @@ function ChangePW() {
               </button>
             </Link>
           </div>
+
           <div id="home">
             <Link to="/main">
               <button>
@@ -113,6 +123,7 @@ function ChangePW() {
               </button>
             </Link>
           </div>
+
           <div id="bell">
             <Link>
               <button>
@@ -120,6 +131,7 @@ function ChangePW() {
               </button>
             </Link>
           </div>
+
           <div id="mypage">
             <Link>
               <button>

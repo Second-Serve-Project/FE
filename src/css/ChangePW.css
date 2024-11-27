@@ -1,29 +1,27 @@
-@import url('https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css" rel="stylesheet');
-
-* {
-  font-family: NanumBarunGothic;
-}
-
-.headerButton {
-  all: unset;
-  cursor: pointer;
-}
-
-.back {
-  position: fixed;
-  padding: 10px;
-  top: 30px;
-  left: 20px;
-}
-
 body {
   margin: 0;
 }
 
-.pwh3 {
+.headerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.headerButton button {
+  all: unset;
+  cursor: pointer;
+  margin-right: 300px;
+}
+
+.pwWrite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 150px;
-  margin-left: 50px;
-  margin-bottom: 100px;
+  margin-right: 180px;
+  margin-bottom: 80px;
   font-size: 20px;
   font-family: 'NanumBarunGothicBold';
 }
@@ -45,26 +43,34 @@ body {
   outline: none;
 }
 
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .errorMessage {
-  position: absolute;
-  margin-left: 50px;
+  margin-right: 100px;
   font-size: 12px;
   color: red;
 }
 
 .successMessage {
-  position: absolute;
-  margin-left: 50px;
+  margin-right: 160px;
   font-size: 12px;
   color: blue
 }
 
+.divChangeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .changeButton {
-  position: relative;
-  left: 40%;
   width: 75px;
   height: 27px;
-  margin-top: 70px;
+  margin-top: 50px;
   border-radius: 10px;
   background-color: #3C6255;
   color: white;
@@ -103,9 +109,4 @@ body {
 /* footer 부분 버튼 */
 .footerbtnimg {
   margin-bottom: 80px;
-}
-
-/* 버튼 동작 */
-Button :active {
-  background-color: grey;
 }
