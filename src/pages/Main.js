@@ -77,7 +77,7 @@ function Main() {
     <body>
       <header className="mainHeader">
         <div class="logo">
-          <Link to='/'>
+          <Link to='/main'>
             <img src={logo} />
           </Link>
         </div>
@@ -141,9 +141,15 @@ function Main() {
         <div className="banner">
           <div className="bannerImg">
             <div className="carousel" ref={carouselRef}>
-              <div className="cell"><img src={banner1} alt="banner1" /></div>
-              <div className="cell"><img src={banner2} alt="banner2" /></div>
-              <div className="cell"><img src={banner3} alt="banner3" /></div>
+              <button>
+                <div className="cell"><img src={banner1} alt="banner1" /></div>
+              </button>
+              <button>
+                <div className="cell"><img src={banner2} alt="banner2" /></div>
+              </button>
+              <button>
+                <div className="cell"><img src={banner3} alt="banner3" /></div>
+              </button>
             </div>
           </div>
 
@@ -214,7 +220,7 @@ function Main() {
             </Link>
           </div>
           <div id="home">
-            <Link to="/">
+            <Link to="/main">
               <button>
                 <img className="footerbtnimg" src={home} alt="Home" />
               </button>
