@@ -41,9 +41,11 @@ function ChangePW() {
     <body className="pwBody">
       <header>
         <div className="headerButton">
-          <button>
-            <img src={back} className="back"></img>
-          </button>
+          <Link>
+            <button>
+              <img src={back} className="back"></img>
+            </button>
+          </Link>
         </div>
       </header>
 
@@ -86,17 +88,20 @@ function ChangePW() {
             </div>
           </div>
 
-          <div className="message">
-            {/* 에러 메시지 */}
-            {error && <p className="errorMessage">{error}</p>}
-            {/* 성공 메시지 */}
-            {success && <p className="successMessage">{success}</p>}
-          </div>
+          <div className="messageContainer">
+            <div className="message">
+              {/* 에러 메시지 */}
+              {error && <p className="errorMessage">{error}</p>}
+              {/* 성공 메시지 */}
+              {success && <p className="successMessage">{success}</p>}
+            </div>
 
 
-          <div className="divChangeButton">
-            <button type="submit" className="changeButton"> 변경 </button>
+            <div className="divChangeButton">
+              <button type="submit" className="changeButton"> 변경 </button>
+            </div>
           </div>
+
         </form>
       </main>
 

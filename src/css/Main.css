@@ -90,6 +90,10 @@
   transition: all 0.5s;
 }
 
+.carousel button {
+  all: unset;
+}
+
 .lrButton {
   display: flex;
   align-items: center;
@@ -131,6 +135,7 @@
   align-items: center;
   justify-self: center;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .storeName {
