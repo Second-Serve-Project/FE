@@ -99,6 +99,7 @@ function ChangePW() {
               <img className="footerbtnimg" src={list} alt="List" />
             </button>
           </div>
+
           <div id="map">
             <Link>
               <button>
@@ -106,13 +107,15 @@ function ChangePW() {
               </button>
             </Link>
           </div>
+
           <div id="home">
-            <Link to="/main">
+            <Link to="/">
               <button>
                 <img className="footerbtnimg" src={home} alt="Home" />
               </button>
             </Link>
           </div>
+
           <div id="bell">
             <Link>
               <button>
@@ -120,6 +123,7 @@ function ChangePW() {
               </button>
             </Link>
           </div>
+
           <div id="mypage">
             <Link>
               <button>
