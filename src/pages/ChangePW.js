@@ -122,7 +122,7 @@ function ChangePW() {
           </div>
 
           <div id="home">
-            <Link to="/main">
+            <Link to="/">
               <button>
                 <img className="footerbtnimg" src={home} alt="Home" />
               </button>
