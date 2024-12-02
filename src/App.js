@@ -11,9 +11,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/main" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route path="/pickup" element={<PickUp />} />
-        <Route path="/" element={<ChangePW />} />
+        <Route path="/changePW" element={<ChangePW />} />
       </Routes>
     </BrowserRouter>
   );
