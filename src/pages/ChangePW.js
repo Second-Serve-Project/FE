@@ -107,13 +107,13 @@ function ChangePW() {
 
       <footer>
         <div className="footerButton">
-          <div id="list">
+          <div>
             <button>
               <img className="footerbtnimg" src={list} alt="List" />
             </button>
           </div>
 
-          <div id="map">
+          <div>
             <Link>
               <button>
                 <img className="footerbtnimg" src={map} alt="Map" />
@@ -121,7 +121,7 @@ function ChangePW() {
             </Link>
           </div>
 
-          <div id="home">
+          <div>
             <Link to="/">
               <button>
                 <img className="footerbtnimg" src={home} alt="Home" />
@@ -129,15 +129,15 @@ function ChangePW() {
             </Link>
           </div>
 
-          <div id="bell">
-            <Link>
+          <div>
+            <Link to="/pickup">
               <button>
                 <img className="footerbtnimg" src={bell} alt="Bell" />
               </button>
             </Link>
           </div>
 
-          <div id="mypage">
+          <div>
             <Link>
               <button>
                 <img className="footerbtnimg" src={mypage} alt="My Page" />
