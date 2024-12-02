@@ -77,7 +77,7 @@ function Main() {
     <body>
       <header className="mainHeader">
         <div class="logo">
-          <Link to='/main'>
+          <Link to='/'>
             <img src={logo} />
           </Link>
         </div>
@@ -207,33 +207,33 @@ function Main() {
 
       <footer>
         <div className="footerButton">
-          <div id="list">
+          <div>
             <button>
               <img className="footerbtnimg" src={list} alt="List" />
             </button>
           </div>
-          <div id="map">
+          <div>
             <Link>
               <button>
                 <img className="footerbtnimg" src={map} alt="Map" />
               </button>
             </Link>
           </div>
-          <div id="home">
-            <Link to="/main">
+          <div>
+            <Link to="/">
               <button>
                 <img className="footerbtnimg" src={home} alt="Home" />
               </button>
             </Link>
           </div>
-          <div id="bell">
-            <Link>
+          <div>
+            <Link to="/pickup">
               <button>
                 <img className="footerbtnimg" src={bell} alt="Bell" />
               </button>
             </Link>
           </div>
-          <div id="mypage">
+          <div>
             <Link>
               <button>
                 <img className="footerbtnimg" src={mypage} alt="My Page" />
