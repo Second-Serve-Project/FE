@@ -1,34 +1,28 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import '../css/Main.css';
-import logo from '../images/logo.svg';
-import list from '../images/list.svg';
-import map from '../images/map.svg';
-import home from '../images/home.svg';
-import bell from '../images/bell.svg';
-import mypage from '../images/mypage.svg';
-import search from '../images/search.svg';
-import rice from '../images/rice.svg';
-import chicken from '../images/chicken.svg';
-import sushi from '../images/sushi.svg';
-import noodle from '../images/noodle.svg';
-import salad from '../images/salad.svg';
-import bread from '../images/bread.svg';
-import cake from '../images/cake.svg';
+import './Main.css';
+import logo from '../../images/logo.svg';
+import search from '../../images/search.svg';
+import rice from '../../images/rice.svg';
+import chicken from '../../images/chicken.svg';
+import sushi from '../../images/sushi.svg';
+import noodle from '../../images/noodle.svg';
+import salad from '../../images/salad.svg';
+import bread from '../../images/bread.svg';
+import cake from '../../images/cake.svg';
 
 //배너 이미지는 나중에 백에서 불러와야 함
-import banner1 from '../images/banner1.png';
-import banner2 from '../images/banner2.png';
-import banner3 from '../images/banner3.png';
+import banner1 from '../../images/banner1.png';
+import banner2 from '../../images/banner2.png';
+import banner3 from '../../images/banner3.png';
 
-import left from '../images/left.svg';
-import right from '../images/right.svg';
-import noti from '../images/noti.svg';
+import left from '../../images/left.svg';
+import right from '../../images/right.svg';
+import noti from '../../images/noti.svg';
 
 //가게 이미지도 나중에 백에서 불러와야 함
-import store from '../images/store.png';
+import store from '../../images/store.png';
 
-import star from '../images/star.svg';
+import star from '../../images/star.svg';
 
 
 function Main() {
@@ -77,9 +71,7 @@ function Main() {
     <body>
       <header className="mainHeader">
         <div class="logo">
-          <Link to='/'>
-            <img src={logo} />
-          </Link>
+          <img src={logo} />
         </div>
 
         <div className="search">
@@ -204,44 +196,6 @@ function Main() {
            */}
         </div>
       </main>
-
-      <footer>
-        <div className="footerButton">
-          <div>
-            <button>
-              <img className="footerbtnimg" src={list} alt="List" />
-            </button>
-          </div>
-          <div>
-            <Link>
-              <button>
-                <img className="footerbtnimg" src={map} alt="Map" />
-              </button>
-            </Link>
-          </div>
-          <div>
-            <Link to="/">
-              <button>
-                <img className="footerbtnimg" src={home} alt="Home" />
-              </button>
-            </Link>
-          </div>
-          <div>
-            <Link to="/pickup">
-              <button>
-                <img className="footerbtnimg" src={bell} alt="Bell" />
-              </button>
-            </Link>
-          </div>
-          <div>
-            <Link>
-              <button>
-                <img className="footerbtnimg" src={mypage} alt="My Page" />
-              </button>
-            </Link>
-          </div>
-        </div>
-      </footer>
     </body>
   );
 }

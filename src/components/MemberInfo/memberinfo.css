@@ -1,0 +1,36 @@
+.member_info {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.member_name {
+  width: 122px;
+  height: 61px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.member_point {
+  width: 122px;
+  height: 61px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.btn div {
+  margin: 0;
+}
+
+.pw_changebtn {
+  border: 3px dotted red;
+}
+
+.logoutbtn {
+  margin-top: 10px;
+  border: 3px dotted red;
+}

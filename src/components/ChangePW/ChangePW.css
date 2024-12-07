@@ -2,24 +2,11 @@ body {
   margin: 0;
 }
 
-.headerButton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 60px;
-}
-
-.headerButton button {
-  all: unset;
-  cursor: pointer;
-  margin-right: 300px;
-}
-
 .pwWrite {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 150px;
   margin-right: 180px;
   margin-bottom: 80px;
   font-size: 20px;
@@ -83,38 +70,4 @@ body {
   background-color: #3C6255;
   color: white;
   font-size: 14px;
-}
-
-/* body, footer 경계선 */
-.footerButton img {
-  margin-top: 10px;
-}
-
-/* footer 부분 버튼 배치 */
-.footerButton {
-  position: fixed;
-  bottom: -50px;
-  /* 화면의 아래쪽에 고정 */
-  left: 50%;
-  /* 가로 중앙에 위치 */
-  transform: translateX(-50%);
-  /* 버튼을 정확히 중앙으로 이동 */
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border-top: 1px solid grey;
-}
-
-/* footer 버튼 배치 */
-.footerButton button {
-  width: 78px;
-  height: 82px;
-  border: white solid;
-  background-color: white;
-}
-
-/* footer 부분 버튼 */
-.footerbtnimg {
-  margin-bottom: 80px;
 }
