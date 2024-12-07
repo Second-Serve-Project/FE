@@ -1,19 +1,27 @@
 import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Main from "./pages/Main";
-import PickUp from "./pages/PickUp";
-import ChangePW from "./pages/ChangePW";
-//여기에 페이지 import 해주세요. ex) import Main from "./pages/Main";
-//<Route> 태그도 <Routes> 태그 안에 추가해주세요. ex) <Route path="/" element={<Main />} />
-import './App.css';
+import MainRender from "./components/Main/MainRender";
+import PickUpRender from "./components/PickUp/PickUPRender";
+import ChangePWRender from "./components/ChangePW/ChangePWRender";
+import LoginRender from "./components/Login/LoginRender";
+import MemberInfoRender from "./components/MemberInfo/memberinforender";
+import JoinRender from "./components/Signup/JoinRender";
+import StoreRender from "./components/Store/storerender";
+
+
+import "./style.css";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/pickup" element={<PickUp />} />
-        <Route path="/changePW" element={<ChangePW />} />
+        <Route path="/" element={<MainRender />} />
+        <Route path="/pickup" element={<PickUpRender />} />
+        <Route path="changepw/" element={<ChangePWRender />} />
+        <Route path="/login" element={<LoginRender />} />
+        <Route path="/mypage" element={<MemberInfoRender />} />
+        <Route path="/join" element={<JoinRender />} />
+        <Route path="/store" element={<StoreRender />} />
       </Routes>
     </BrowserRouter>
   );
