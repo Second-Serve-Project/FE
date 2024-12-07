@@ -1,0 +1,129 @@
+.headerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.headerButton button {
+  all: unset;
+  cursor: pointer;
+  margin-right: 300px;
+}
+
+.locationMap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#map {
+  width: 330px;
+  height: 330px;
+  border-radius: 10px;
+}
+
+.pickupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.pickupWrite {
+  margin-right: 170px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'NanumBarunGothicBold';
+}
+
+.pickupTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 220px;
+  font-size: 12px;
+  gap: 10px;
+}
+
+.pickupLocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+  font-size: 12px;
+  gap: 10px;
+}
+
+.package {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  gap: 20px;
+}
+
+.package img {
+  border-radius: 10px;
+}
+
+.packageWrite {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  gap: 5px;
+}
+
+.packageName {
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-family: 'NanumBarunGothicBold';
+}
+
+.packagePrice {
+  display: flex;
+  gap: 20px;
+}
+
+.originalPrice {
+  color: #ACACAC;
+  text-decoration: line-through;
+}
+
+/* body, footer 경계선 */
+.footerButton img {
+  margin-top: 10px;
+}
+
+/* footer 부분 버튼 배치 */
+.footerButton {
+  position: fixed;
+  bottom: -50px;
+  /* 화면의 아래쪽에 고정 */
+  left: 50%;
+  /* 가로 중앙에 위치 */
+  transform: translateX(-50%);
+  /* 버튼을 정확히 중앙으로 이동 */
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px solid grey;
+}
+
+/* footer 버튼 배치 */
+.footerButton button {
+  width: 78px;
+  height: 82px;
+  border: white solid;
+  background-color: white;
+}
+
+/* footer 부분 버튼 */
+.footerbtnimg {
+  margin-bottom: 80px;
+}
