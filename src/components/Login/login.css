@@ -1,0 +1,30 @@
+/* body 영역 input 부분 */
+#login-form input {
+  width: 275px;
+  height: 36px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #3c6255;
+  padding: 1px 8px;
+  font-size: 14px;
+}
+
+#loginbtn {
+  position: absolute;
+  left: 50%;
+  /* 부모 요소 기준으로 수평 중앙 */
+  transform: translateX(-50%);
+  /* 정확한 가운데 정렬 */
+  background-color: #3c6255;
+  width: 75px;
+  height: 27px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-top: 40px;
+}
+
+#logo {
+  margin-top: 150px;
+}

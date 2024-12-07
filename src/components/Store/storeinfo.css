@@ -1,0 +1,47 @@
+/* 가게 박스 부분 */
+.store_contianer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.store {
+  margin-bottom: 20px;
+}
+
+.store_name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.store_img {
+  border-radius: 10px;
+  /* margin: 0; */
+}
+
+.info_contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.store_star {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.star_img {
+  width: 10px;
+  height: 10px;
+  margin-right: 4px;
+}
+
+.info {
+  font-size: 12px;
+}

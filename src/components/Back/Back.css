@@ -1,0 +1,13 @@
+.headerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.headerButton button {
+  all: unset;
+  cursor: pointer;
+  margin-right: 310px;
+}

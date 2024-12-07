@@ -1,0 +1,82 @@
+.locationMap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#map {
+  width: 330px;
+  height: 330px;
+  border-radius: 10px;
+}
+
+.pickupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.pickupWrite {
+  margin-right: 170px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'NanumBarunGothicBold';
+}
+
+.pickupTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 220px;
+  font-size: 12px;
+  gap: 10px;
+}
+
+.pickupLocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+  font-size: 12px;
+  gap: 10px;
+}
+
+.package {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  gap: 20px;
+}
+
+.package img {
+  border-radius: 10px;
+}
+
+.packageWrite {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  gap: 5px;
+}
+
+.packageName {
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-family: 'NanumBarunGothicBold';
+}
+
+.packagePrice {
+  display: flex;
+  gap: 20px;
+}
+
+.originalPrice {
+  color: #ACACAC;
+  text-decoration: line-through;
+}

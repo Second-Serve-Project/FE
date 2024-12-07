@@ -1,0 +1,18 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* body 영역 배치 */
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* logo, input 사이 간격 조절 */
+#main #logo {
+  margin-bottom: 60px;
+}
