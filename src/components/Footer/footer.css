@@ -31,3 +31,52 @@
 .footerbtnimg {
   margin-bottom: 70px;
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+.listMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background: white;
+  padding: 20px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1010;
+}
+
+.listMenu.open {
+  transform: translateX(0);
+}
+
+.listMenu h2 {
+  margin: 40px 0 40px 0;
+}
+
+.listMenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.listMenu ul li {
+  font-size: 17px;
+  margin: 15px 0;
+  cursor: pointer;
+  padding: 1px;
+}
+
+.x {
+  all: unset;
+  position: absolute;
+  left: 80%;
+}
