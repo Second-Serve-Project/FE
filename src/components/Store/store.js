@@ -1,51 +1,25 @@
 import React from "react";
-import star from "../../images/star.svg";
+import StoreItem from "./storeItem";
 
 function Store() {
+  const storeData = [
+    { name: "가게 이름 1", rating: "5.0", distance: 350, imageUrl: "https://placehold.co/349x109" },
+    { name: "가게 이름 2", rating: "4.8", distance: 500, imageUrl: "https://placehold.co/349x109" },
+    { name: "가게 이름 3", rating: "4.5", distance: 200, imageUrl: "https://placehold.co/349x109" },
+    // 원하는 만큼 데이터 추가
+  ];
+
   return (
     <div className="store_container">
-      <div className="store">
-        <img
-          className="store_img"
-          src="https://placehold.co/349x109"
-          alt="Store 1"
+      {storeData.map((store, index) => (
+        <StoreItem
+          key={index}
+          name={store.name}
+          rating={store.rating}
+          distance={store.distance}
+          imageUrl={store.imageUrl}
         />
-        <div className="info_container">
-          <div className="store_name">가게 이름 1</div>
-          <div className="store_star">
-            <img className="star_img" src={star} alt="Star 1" />
-            <div className="info">5.0 · 350m</div>
-          </div>
-        </div>
-      </div>
-      <div className="store">
-        <img
-          className="store_img"
-          src="https://placehold.co/349x109"
-          alt="Store 2"
-        />
-        <div className="info_container">
-          <div className="store_name">가게 이름 2</div>
-          <div className="store_star">
-            <img className="star_img" src={star} alt="Star 2" />
-            <div className="info">5.0 · 350m</div>
-          </div>
-        </div>
-      </div>
-      <div className="store">
-        <img
-          className="store_img"
-          src="https://placehold.co/349x109"
-          alt="Store 3"
-        />
-        <div className="info_container">
-          <div className="store_name">가게 이름 3</div>
-          <div className="store_star">
-            <img className="star_img" src={star} alt="Star 3" />
-            <div className="info">5.0 · 350m</div>
-          </div>
-        </div>
-      </div>
+      ))}
     </div>
   );
 }
