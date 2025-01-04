@@ -9,9 +9,7 @@ function StoreRender() {
   return (
     <div id="main">
       <BackRender />
-      <div className="store_container">
-        <Store />
-      </div>
+      <Store />
       <FooterButtons />
     </div>
   );
